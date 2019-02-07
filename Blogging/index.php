@@ -60,7 +60,7 @@ include ('resources/templates/' . $template . '-template.php');
 
 elseif($page == "kontakt") {
 	$header = 'Kontakt';
-    $content = '<div class="content">Du når oss på epost@labb2.se</div>';
+    $content = 'Du når oss på epost@labb2.se' ;
     include ('resources/templates/page-template.php');
 }
 else {
